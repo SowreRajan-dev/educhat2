@@ -1,12 +1,8 @@
-* {
-  max-height: 768px;
-}
 .login-dark {
-  height: 100%;
-  width: 100%;
-  /* background: url(sky-star.jpg) 0 0 / cover #475d62; */
-  position: relative;
   overflow: hidden;
+  height: 1000px;
+  background: url(sky-star.jpg) 0 0 / cover #475d62;
+  position: relative;
 }
 .login-dark form {
   max-width: 320px;
