@@ -14,7 +14,7 @@
     />
     <link rel="stylesheet" href="./styles.min.css" />
   </head>
-  <body>
+  <body classname="body-img">
     <section
       class="bg-light border-primary shadow register-photo"
       style="background: url('./sky-star.jpg'); background-size: cover"
@@ -58,13 +58,17 @@
             <input
               class="form-control"
               type="password"
-              name="password-repeat"
-              placeholder="Password (repeat)"
-            /><button class="btn btn-primary" type="button">
-              &nbsp; &nbsp;Learner&nbsp; &nbsp;</button
-            ><button class="btn btn-primary text-end" type="button">
-              Professional&nbsp;
-            </button>
+              name="Confirm-password"
+              placeholder="Confirm Password"
+            />
+            <div class="selectionBox">
+              <button class="btn btn-primary text-center" type="button">
+                Learner
+              </button>
+              <button class="btn btn-primary text-center" type="button">
+                <a href="../dashboard/"> Professional&nbsp; </a>
+              </button>
+            </div>
             <div class="mb-3"></div>
             <div class="form-check">
               <input

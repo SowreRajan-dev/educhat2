@@ -63,3 +63,10 @@
 .login-dark form .btn-primary:active {
   transform: translateY(1px);
 }
+
+.moveOn {
+  color: rgb(33, 131, 187);
+}
+.moveOn:hover {
+  text-decoration: underline;
+}
