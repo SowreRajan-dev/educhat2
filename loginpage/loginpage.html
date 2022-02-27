@@ -16,7 +16,7 @@
   </head>
   <body>
     <section class="login-dark">
-      <form class="text-center text-body" method="post">
+      <form class="text-center text-body">
         <h2 class="visually-hidden">Login Form</h2>
         <h1 class="text-center text-white">EDUCHAT&nbsp;</h1>
         <div class="illustration"></div>
@@ -25,6 +25,7 @@
             class="form-control"
             type="email"
             name="email"
+            id="email"
             placeholder="Email"
             style="color: #f5f5f5"
           />
@@ -34,12 +35,17 @@
             class="form-control"
             type="password"
             name="password"
+            id="password"
             placeholder="Password"
             style="color: #f5f5f5"
           />
         </div>
         <div class="mb-3">
-          <button class="btn btn-primary d-block w-100" type="submit">
+          <button
+            class="btn btn-primary d-block w-100"
+            type="button"
+            onclick="getVal()"
+          >
             Log In
           </button>
         </div>
@@ -54,5 +60,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="./bootstrap.min.js"></script>
     <script src="./script.min.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
